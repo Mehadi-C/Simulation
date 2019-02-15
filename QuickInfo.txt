@@ -1,0 +1,48 @@
+                                                Welcome to the Ecosystem Simulation!
+                                          Creators: Mehadi Chowdhury, Fatima Ali, Frank Hong
+Overview of the Simulation Display 
+
+  There are three main sections of the simulation display. 
+  The top left corner contains the buttons, drop down menu,and sliders that the user can click and use 
+  to change the simulation. The bottom left section displays the year number and the month.
+  The picture complementing the seasons will change at: Month 12 for Winter, 
+  Month 3 for Spring, Month 6 for Summer, Month 9 for Fall.  
+  The entire right sector of the board displays the actual simulation, showcasing deer and coyote interaction.
+
+Starting the Simulation: 
+
+  > After the program is open, you will see the full program screen. 
+  > As mentioned before, the left side board will contain many different buttons. 
+  > The right side board will display the simulation.  
+  > Click “Simulate” in the top right board to start the simulation. 
+  > You will see the deer and coyotes move around in the right side board.
+
+Summary of Interactions 
+ 
+ Deer 
+	 > feed from shrubs, drink from lake, run away from coyotes, usually to places safer from their predators. 
+         Have shorter lives and mate more. 
+ Coyotes 
+	 > look for deer (food source), hunt and eat them. Drink from lake, have longer lives, usually mate less.  
+ Both 
+	 > procreate and die, are affected by plague, old age, starvation, thirst and the weather 
+
+1. Define Birth Rate Slider:
+	 - This slider allows the user to increase or decrease the animals’ spawning rate. 
+           The slider will start in the middle at a pre-set normal rate.  
+2. Define Death Rate Slider:
+	  - This slider allows the user to increase or decrease the animals’ dying rate. 
+            The slider will start in the middle at a pre-set normal rate.  
+3. Define Sim Speed Slider:
+	  - This slider allows the user to increase or decrease the speed of the simulation. 
+            The slider will start in the middle at a pre-set normal rate.  
+4. Plague Button:
+	  - Clicking “Plague” will cause the program to have the user select an animal on the grid, 
+            and kill other members of its species around it. The animal itself will die, along with 
+            75% death rate for animals in a one block radius, 50% death rate for animals in a two block 
+            radius and 25% for animals in a three block radius.
+5. Rainfall Button:
+	 - Clicking “Rainfall” will cause new shrubs to grow in the simulation, if it is not Winter
+
+6. Drought Button:
+	 - Clicking “Drought” will cause 50% of the shrubs in the simulation to die off, if it is not Winter. 
